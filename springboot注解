@@ -1,0 +1,5 @@
+url使用占位路径/{id}时，请求参数使用@PathVariable("id")指定参数名，使用?id=xxx时使用@RequestParam（"id"）指定参数名。
+@RequestBody用于接收请求体中的数据，get请求无请求体。@RequestBody与@RequestParam()可以同时使用，@RequestBody最多只能有一个，
+而@RequestParam()可以有多个。
+
+pojo实体类中，类上加@Table("tb_user")指定实体类与表的映射关系
